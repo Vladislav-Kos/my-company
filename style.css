@@ -48,28 +48,30 @@ border-bottom: 3px solid #fcac45;
  display: none;
 }
 main{
-    display: flex;
+display: flex;
     flex-direction: column;
     width: 100%;
 }
-main .main_welcome{
+
+main .main_Welcome{
 background: #000;
 text-align: center;
 padding: 200px 0 410px 0;
 }
-main .main_welcome p{
+main .main_Welcome p{
     color: #999999;
     font-size: 20px;
 }
-main .main_welcome h1{
+main .main_Welcome h1{
     color: #999999;
     font-size: 44px;
 }
-main .main_welcome h1:after{
+main .main_Welcome h1:after{
     display: none;
 }
 .mycompany{
     color: #fcac45;
+
 }
 
 .wrapper{
@@ -150,9 +152,10 @@ main .main_about{
 
 .services_cards{
     text-align: center;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: auto auto auto auto;
-    grid-column-gap: 20px;
+    grid-column-gap: 50px;
+
 }
 .main_services h1{
     text-align: center;
@@ -221,7 +224,6 @@ padding: 100px 0 100px 0;
 
 .contact_from h1,p{
     text-align: center;
-
 }
 
 .contact_wrapper{
@@ -234,7 +236,11 @@ padding: 100px 0 100px 0;
 }
 .contact_from h1{
     color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+.contact_from p{
+    margin-bottom: 10px;
+
 }
 form p{
     text-align: left;
@@ -349,13 +355,13 @@ footer{
         text-align: left;
 }
 
-    main .main_welcome{
+    main .main_Welcome{
         padding: 50px 0 50px 0;
     }
-    main .main_welcome p{
+    main .main_Welcome p{
         font-size: 14px;
     }
-    main .main_welcome h1{
+    main .main_Welcome h1{
         font-size: 25px;
     }
     .mw-100{
