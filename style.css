@@ -36,10 +36,10 @@ nav{
 
 .topnav a{
 color: #fff;
-    text-align: center;
-    padding: 12px 16px;
-    font-size: 14px;
-    font-weight: bold;
+text-align: center;
+padding: 12px 16px;
+font-size: 14px;
+font-weight: bold;
 }
 .topnav a:hover{
 border-bottom: 3px solid #fcac45;
@@ -54,9 +54,9 @@ display: flex;
 }
 
 main .main_Welcome{
-background: #000;
-text-align: center;
-padding: 200px 0 410px 0;
+ background: #000;
+ text-align: center;
+ padding: 200px 0 410px 0;
 }
 main .main_Welcome p{
     color: #999999;
@@ -67,7 +67,7 @@ main .main_Welcome h1{
     font-size: 44px;
 }
 main .main_Welcome h1:after{
-    display: none;
+display: none;
 }
 .mycompany{
     color: #fcac45;
@@ -240,6 +240,8 @@ padding: 100px 0 100px 0;
 }
 .contact_from p{
     margin-bottom: 10px;
+
+}
 
 }
 form p{
